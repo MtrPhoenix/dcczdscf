@@ -1,0 +1,372 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  line-height: 2;
+}
+/*Banner*/
+.banner {
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+  line-height: 10px;
+}
+.banner-img {
+  height: 500px;
+  position: relative;
+  filter: brightness(50%);
+}
+.banner-text {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  margin-top: 100px;
+  font-weight: 600;
+}
+.banner-text h1 {
+  letter-spacing: -1px;
+  color: white;
+  font-weight: 400;
+}
+.banner span {
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+/*Nav-bar*/
+.nav-bar {
+  margin-bottom: 120px;
+}
+.nav-bar-item {
+  text-align: center;
+}
+.nav-bar-item a {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.nav-bar-content {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 150px 1fr;
+}
+.nav-bar img {
+  position: relative;
+  top: -70px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+.nav-bar-content a {
+  text-transform: uppercase;
+  color: black;
+}
+.nav-bar-content a i {
+  color: rgb(0, 162, 255);
+}
+/*target-info*/
+.target-info {
+  margin-bottom: 120px;
+}
+.target-info-content {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  column-gap: 100px;
+
+  font-weight: 250;
+}
+.section-title {
+  font-size: 24px;
+  letter-spacing: -1px;
+  line-height: 5px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.info-list span {
+  font-weight: 500;
+}
+.web {
+  text-decoration: none;
+  font-weight: 250;
+  color: black;
+}
+.info-icon a:hover {
+  text-decoration: none;
+}
+.info-icon a i {
+  color: rgb(0, 162, 255);
+  margin-right: 10px;
+}
+/*Job-info*/
+.job-info {
+  margin-bottom: 80px;
+}
+.job-info-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  row-gap: 50x;
+
+  font-weight: 250;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.job-info-tittle {
+  display: inline-flex;
+  font-size: 24px;
+  letter-spacing: -1px;
+
+  font-weight: 500;
+  margin-bottom: 50px;
+  width: 75%;
+  text-align: center;
+  justify-items: center;
+}
+.job-info-icon {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  font-size: 45px;
+  color: rgb(194, 194, 197);
+  margin-bottom: 50px;
+}
+/*exp*/
+.exp ul {
+  margin-bottom: 40px;
+}
+.exp-list-tittle {
+  margin-bottom: 10px;
+}
+.exp li {
+  color: rgb(0, 162, 255);
+  margin-left: 12px;
+  font-size: 14px;
+}
+.exp li span {
+  color: black;
+}
+.exp li span strong {
+  font-weight: 400;
+}
+.present-work {
+  display: inline-flex;
+  background-color: rgb(0, 162, 255);
+  padding: 0px 15px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 300;
+}
+.exp-list-content {
+  list-style: none;
+}
+/*skill*/
+.skill-border {
+  display: inline-flex;
+  border-bottom: 2px solid rgb(0, 162, 255);
+  width: 50px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.skill span {
+  font-weight: 400;
+}
+/*language*/
+.language-border {
+  display: inline-flex;
+  border-bottom: 2px solid rgb(0, 162, 255);
+  width: 50px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.language span {
+  font-weight: 400;
+}
+/*activity*/
+.activity ul {
+  margin-bottom: 40px;
+}
+.activity-list-tittle {
+  margin-bottom: 10px;
+}
+.activity li {
+  color: rgb(0, 162, 255);
+  margin-left: 12px;
+  font-size: 14px;
+}
+.activity li span {
+  color: black;
+}
+.activity li span strong {
+  font-weight: 400;
+}
+
+.activity-list-content {
+  list-style: none;
+}
+/*Study*/
+.study ul {
+  margin-bottom: 40px;
+}
+.study-list-tittle {
+  margin-bottom: 10px;
+}
+.study li {
+  color: rgb(0, 162, 255);
+  margin-left: 12px;
+  font-size: 14px;
+}
+.study li span {
+  color: black;
+}
+.study li span strong {
+  font-weight: 400;
+}
+
+.study-list-content {
+  list-style: none;
+}
+/*interests*/
+
+.interests-content {
+  display: inline-flex;
+  gap: 20px;
+  text-align: center;
+}
+.interests-block {
+  justify-content: center;
+}
+.interests-icon {
+  font-size: 20px;
+  display: flex;
+  height: 57px;
+  width: 57px;
+  border: 1px solid rgb(0, 162, 255);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: rgb(0, 162, 255);
+}
+/*certificate*/
+.certificate {
+  margin-bottom: 80px;
+}
+.certificate-tittle h1 {
+  display: inline-flex;
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.certificate-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 14px;
+  font-weight: 250;
+  gap: 40px;
+}
+.certificate .certificate-content img {
+  display: inline-flex;
+  grid-column: 1/2;
+  width: 200px;
+  height: auto;
+}
+.certificate-item {
+  display: flex;
+}
+.certificate-text {
+  margin-left: 40px;
+}
+.certificate-text h2 {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.certificate-text ul li {
+  list-style: none;
+}
+
+.certificate-item-2 {
+  border-left: 1px solid #d6c08d;
+}
+.certificate-item-3 {
+  border-top: 1px solid #d6c08d;
+  grid-row: 2/3;
+}
+.certificate-item-4 {
+  border-top: 1px solid #d6c08d;
+}
+/*Project*/
+.project {
+  margin-bottom: 120px;
+}
+.project-tittle h1 {
+  display: inline-flex;
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 14px;
+  font-weight: 250;
+  column-gap: 40px;
+}
+
+.project-text h2 {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.project-time {
+  background-color: rgb(0, 162, 255);
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 300;
+}
+.project-text i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 20px;
+  gap: 50px;
+}
+.project-content .project-item .project-img img {
+  width: 400px;
+  height: 300px;
+}
+/*footer*/
+.footer {
+  display: flex;
+  text-align: center;
+}
+.footer-content {
+  display: inline-flex;
+  gap: 40px;
+}
+.footer-item {
+  display: flex;
+  align-items: center;
+}
+.footer-icon {
+  color: rgb(0, 162, 255);
+  font-size: 200%;
+}
+.footer-item a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.footer-item a {
+  color: black;
+  font-weight: 200;
+}

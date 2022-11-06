@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+  /*nav-bar*/
+  .nav-bar img {
+    display: none;
+  }
+  .nav-bar-content {
+    margin-top: 16px;
+    display: flex;
+  }
+  .nav-bar-item a {
+    display: inline-flex;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  /*target-info*/
+  .target-info-content {
+    column-gap: 70px;
+  }
+  /*Job-info*/
+
+  .job-info-content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 70px;
+    row-gap: 50x;
+  }
+  .activity {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .study {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  /*certificate*/
+  .certificate-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 14px;
+    font-weight: 250;
+    gap: 40px;
+  }
+  .certificate .certificate-content img {
+    display: inline-flex;
+    grid-column: 1/2;
+    width: 100%;
+    height: auto;
+  }
+  .certificate-item {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .certificate-text {
+    margin-left: 40px;
+  }
+  /*Project*/
+
+  .project-content {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    column-gap: 30px;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .project-content-1 {
+    width: auto;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .project-content .project-item .project-img img {
+    width: 100%;
+    height: auto;
+  }
+}
